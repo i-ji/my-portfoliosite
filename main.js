@@ -3,7 +3,7 @@
 {  
 
 	// 文字がフワッと表れる処理とヘッダーの処理
-	
+
 	function inViewCallback(entries,obs) {
 		entries.forEach(function(entry){
 			if(!entry.isIntersecting) {
@@ -27,7 +27,8 @@
 
 	const header = document.querySelector('header');
 
-	const inViewObserver = new IntersectionObserver(inViewCallback,{threshold:0.4}) 
+	const inViewObserver = new IntersectionObserver(inViewCallback,{threshold:0.2
+	}) 
   
 	document.querySelectorAll('.animate').forEach(function(el){
 		inViewObserver.observe(el);
