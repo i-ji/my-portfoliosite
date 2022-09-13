@@ -5,7 +5,7 @@ body {
   "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,
   "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",
   "Noto Color Emoji";;
-  color: inherit;
+  color: #333;
   margin: 0;
   background: #f2e5d5;
 }
@@ -44,12 +44,12 @@ ul {
 /*header*/
 
 header {
-  padding: 16px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
   transition: background .3s;
+  line-height: 72px;
 }
 
 header.scrolled {
@@ -88,7 +88,7 @@ header .pc-menu ul {
 header .pc-menu a {
   display: block;
   width: 100px;
-  line-height: 40px;
+  line-height: 72px;
   text-align: center;
   transition: background .3s,opacity .3s;
 }
@@ -103,9 +103,7 @@ header .sp-menu {
   cursor: pointer;
   user-select: none;
 }
-
-
-
+ 
 /*hero*/
 
 .hero {
@@ -151,11 +149,13 @@ header .sp-menu {
 }
 
 .about .desc p {
+  line-height: 1.7em;
   text-indent: 1em;
+  text-align: justify;
 }
 
 .about .desc p + p {
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 
@@ -173,7 +173,7 @@ header .sp-menu {
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 16px;
+  padding: 12px;
 }
 
 .skill h3 {
@@ -273,7 +273,7 @@ footer {
 
 #overlay a {
   display: inline-block;
-  width: 100px;
+  width: 100%;
   text-align: center;
   line-height: 70px;
   transition: background .3s;
