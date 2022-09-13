@@ -173,7 +173,7 @@ header .sp-menu {
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 12px;
+  padding: 16px;
 }
 
 .skill h3 {
@@ -323,6 +323,7 @@ footer {
   .skill .design,
   .skill .front {
     width: calc((100% - 48px) / 2);
+    padding: 16px 12px
   }
 
   .skill .design {
