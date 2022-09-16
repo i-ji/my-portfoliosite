@@ -27,8 +27,7 @@
 
 	const header = document.querySelector('header');
 
-	const inViewObserver = new IntersectionObserver(inViewCallback,{threshold:0.2
-	}) 
+	const inViewObserver = new IntersectionObserver(inViewCallback,{threshold:0.2}) 
   
 	document.querySelectorAll('.animate').forEach(function(el){
 		inViewObserver.observe(el);
