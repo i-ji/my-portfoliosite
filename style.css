@@ -255,6 +255,7 @@ header .sp-menu {
 
 .contact {
   padding: 64px 0;
+  text-align: center;
 }
 
 .contact p {
@@ -268,6 +269,7 @@ header .sp-menu {
 
 
 /*footer*/
+
 footer {
   padding: 32px 0;
   background: #333;
