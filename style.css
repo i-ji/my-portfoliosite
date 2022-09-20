@@ -73,6 +73,7 @@ header .logo img {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  opacity: 0.5;
 }
 
 header .pc-menu {
@@ -146,6 +147,7 @@ header .sp-menu {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  background: #333c5e;
 }
 
 .about .desc p {
